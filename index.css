@@ -1,0 +1,112 @@
+/* Body classes */
+html{
+  height:100%;
+}
+body {
+  height: 90%;
+  background-color: rgba(0, 82, 245, 1);
+}
+.container {
+  width: 75vw;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+}
+.header {
+  width: 70vw;
+  text-align: center;
+  margin: auto;
+  color: black;
+  text-shadow: 2px 2px lightgrey;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Translation Element */
+.display {
+  width: 70vw;
+  text-align: center;
+  margin: auto;
+  min-height: 300px;
+  margin-top: 0px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+#translation {
+  padding: 20px 10px;
+  border: 1px black solid;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  min-height:200px;
+  background-color: white
+}
+#tLocation{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  /* display: none; */
+}
+#originL #transCol{
+  flex:1;
+  margin:20px;
+  border:1px solid black;
+}
+#transCol{
+  display:flex;
+  flex-direction: column
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid black;
+  width: 80%;
+  margin:10px auto;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgba(219, 255, 247, 1);
+
+}
+/* #copy{
+  border:none;
+  color:white;
+  width:1px;  
+} */
+.title{
+  font-weight: bold;
+  font-size:20px;
+  text-align: center;
+}
+button{
+  border-radius: 15px;
+}
+#buttons{
+  margin:20px auto;
+  text-align: center;
+  display: flex;
+  flex-direction:row;
+  
+}
+.btn {
+  font-size:14px;
+  margin:auto;
+  width:200px;
+}
+
+.stateText{
+  font-size:20px;
+  font-weight: bolder
+}
+@media(max-width:450px){
+  input#original{
+    width:125px;
+    margin-bottom:10px;
+  }
+}
